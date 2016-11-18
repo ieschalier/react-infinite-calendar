@@ -103,7 +103,6 @@ var InfiniteCalendar = function (_Component) {
 		var _this = _possibleConstructorReturn(this, (InfiniteCalendar.__proto__ || Object.getPrototypeOf(InfiniteCalendar)).call(this));
 
 		_this.onDaySelect = function (selectedDate, e) {
-			var shouldHeaderAnimate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _this.props.shouldHeaderAnimate;
 			var _this$props = _this.props,
 			    afterSelect = _this$props.afterSelect,
 			    beforeSelect = _this$props.beforeSelect,
@@ -117,7 +116,6 @@ var InfiniteCalendar = function (_Component) {
 
 				_this.setState({
 					selectedDate: selectedDate,
-					shouldHeaderAnimate: shouldHeaderAnimate,
 					highlightedDate: selectedDate.clone()
 				}, function () {
 					_this.clearHighlight();
