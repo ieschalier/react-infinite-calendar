@@ -1,11 +1,11 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PureComponent, PropTypes} from 'react';
 import {List as VirtualScroll} from 'react-virtualized';
 import classNames from 'classnames';
 import {keyCodes} from '../utils';
 import moment from 'moment';
 const style = require('./Years.scss');
 
-export default class Years extends Component {
+export default class Years extends PureComponent {
     static propTypes = {
         height: PropTypes.number,
         width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),

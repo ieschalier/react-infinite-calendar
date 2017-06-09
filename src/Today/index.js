@@ -1,9 +1,9 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PureComponent, PropTypes} from 'react';
 import classNames from 'classnames';
 import moment from 'moment';
 const style = require('./Today.scss');
 
-export default class Today extends Component {
+export default class Today extends PureComponent {
 	static propTypes = {
 		locale: PropTypes.object,
 		scrollToDate: PropTypes.func,

@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import classNames from 'classnames';
 import moment from 'moment';
 import get from 'lodash/get'
 import Day from '../Day';
 const style = require('./Month.scss');
 
-export default class Month extends Component {
+export default class Month extends PureComponent {
 	shouldComponentUpdate(nextProps) {
 		return (!nextProps.isScrolling && !this.props.isScrolling);
 	}

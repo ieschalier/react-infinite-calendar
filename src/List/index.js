@@ -1,11 +1,11 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PureComponent, PropTypes} from 'react';
 import {List as VirtualScroll} from 'react-virtualized';
 import classNames from 'classnames';
 import {getMonth, getWeeksInMonth, validParsedDate} from '../utils';
 import Month from '../Month';
 const style = require('./List.scss');
 
-export default class List extends Component {
+export default class List extends PureComponent {
 	static propTypes = {
 		width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 		height: PropTypes.number,

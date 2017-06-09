@@ -1,11 +1,11 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PureComponent, PropTypes} from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import classNames from 'classnames';
 const style = require('./Header.scss');
 const animation = require('./Animation.scss');
 
-export default class Header extends Component {
+export default class Header extends PureComponent {
 	static propTypes = {
 		layout: PropTypes.string,
 		locale: PropTypes.object,

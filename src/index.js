@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PureComponent, PropTypes} from 'react';
 import classNames from 'classnames';
 import moment from 'moment';
 import debounce from 'lodash/debounce';
@@ -19,7 +19,7 @@ const style = {
 	day: dayStyle
 };
 
-export default class InfiniteCalendar extends Component {
+export default class InfiniteCalendar extends PureComponent {
 	constructor(props) {
 		super();
 
