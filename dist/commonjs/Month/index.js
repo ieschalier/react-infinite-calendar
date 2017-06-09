@@ -45,8 +45,8 @@ var style = {
 	'partialFirstRow': 'Cal__Month__partialFirstRow'
 };
 
-var Month = function (_Component) {
-	_inherits(Month, _Component);
+var Month = function (_PureComponent) {
+	_inherits(Month, _PureComponent);
 
 	function Month() {
 		_classCallCheck(this, Month);
@@ -164,6 +164,6 @@ var Month = function (_Component) {
 	}]);
 
 	return Month;
-}(_react.Component);
+}(_react.PureComponent);
 
 exports.default = Month;

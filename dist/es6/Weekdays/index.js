@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 import moment from 'moment';
 import range from 'lodash/range';
@@ -8,8 +8,8 @@ var style = {
 	'day': 'Cal__Weekdays__day'
 };
 
-var Weekdays = function (_Component) {
-	babelHelpers.inherits(Weekdays, _Component);
+var Weekdays = function (_PureComponent) {
+	babelHelpers.inherits(Weekdays, _PureComponent);
 
 	function Weekdays() {
 		babelHelpers.classCallCheck(this, Weekdays);
@@ -41,7 +41,7 @@ var Weekdays = function (_Component) {
 		}
 	}]);
 	return Weekdays;
-}(Component);
+}(PureComponent);
 
 Weekdays.propTypes = {
 	locale: PropTypes.object,

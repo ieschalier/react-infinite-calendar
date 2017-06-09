@@ -36,8 +36,8 @@ var style = {
 	'chevronDown': 'Cal__Today__chevronDown'
 };
 
-var Today = function (_Component) {
-	_inherits(Today, _Component);
+var Today = function (_PureComponent) {
+	_inherits(Today, _PureComponent);
 
 	function Today() {
 		var _ref;
@@ -92,7 +92,7 @@ var Today = function (_Component) {
 	}]);
 
 	return Today;
-}(_react.Component);
+}(_react.PureComponent);
 
 Today.propTypes = {
 	locale: _react.PropTypes.object,

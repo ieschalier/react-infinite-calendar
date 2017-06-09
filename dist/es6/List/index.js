@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { List as VirtualScroll } from 'react-virtualized';
 import classNames from 'classnames';
 import { getMonth, getWeeksInMonth, validParsedDate } from '../utils';
@@ -8,8 +8,8 @@ var style = {
 	'scrolling': 'Cal__List__scrolling'
 };
 
-var List = function (_Component) {
-	babelHelpers.inherits(List, _Component);
+var List = function (_PureComponent) {
+	babelHelpers.inherits(List, _PureComponent);
 
 	function List() {
 		var _ref;
@@ -161,7 +161,7 @@ var List = function (_Component) {
 		}
 	}]);
 	return List;
-}(Component);
+}(PureComponent);
 
 List.propTypes = {
 	width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),

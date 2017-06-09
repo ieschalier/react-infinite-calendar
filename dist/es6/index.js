@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import classNames from 'classnames';
 import moment from 'moment';
 import debounce from 'lodash/debounce';
@@ -35,8 +35,8 @@ var style = {
 	day: dayStyle
 };
 
-var InfiniteCalendar = function (_Component) {
-	babelHelpers.inherits(InfiniteCalendar, _Component);
+var InfiniteCalendar = function (_PureComponent) {
+	babelHelpers.inherits(InfiniteCalendar, _PureComponent);
 
 	function InfiniteCalendar(props) {
 		babelHelpers.classCallCheck(this, InfiniteCalendar);
@@ -483,7 +483,7 @@ var InfiniteCalendar = function (_Component) {
 		}
 	}]);
 	return InfiniteCalendar;
-}(Component);
+}(PureComponent);
 
 InfiniteCalendar.defaultProps = {
 	width: 400,

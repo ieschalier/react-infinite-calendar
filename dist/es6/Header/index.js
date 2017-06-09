@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import classNames from 'classnames';
@@ -20,8 +20,8 @@ var animation = {
 	'leaveActive': 'Cal__Animation__leaveActive'
 };
 
-var Header = function (_Component) {
-	babelHelpers.inherits(Header, _Component);
+var Header = function (_PureComponent) {
+	babelHelpers.inherits(Header, _PureComponent);
 
 	function Header() {
 		babelHelpers.classCallCheck(this, Header);
@@ -111,7 +111,7 @@ var Header = function (_Component) {
 		}
 	}]);
 	return Header;
-}(Component);
+}(PureComponent);
 
 Header.propTypes = {
 	layout: PropTypes.string,

@@ -37,8 +37,8 @@ var style = {
 	'day': 'Cal__Weekdays__day'
 };
 
-var Weekdays = function (_Component) {
-	_inherits(Weekdays, _Component);
+var Weekdays = function (_PureComponent) {
+	_inherits(Weekdays, _PureComponent);
 
 	function Weekdays() {
 		_classCallCheck(this, Weekdays);
@@ -72,7 +72,7 @@ var Weekdays = function (_Component) {
 	}]);
 
 	return Weekdays;
-}(_react.Component);
+}(_react.PureComponent);
 
 Weekdays.propTypes = {
 	locale: _react.PropTypes.object,

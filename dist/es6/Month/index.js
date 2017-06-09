@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import classNames from 'classnames';
 import moment from 'moment';
 import get from 'lodash/get';
@@ -12,8 +12,8 @@ var style = {
 	'partialFirstRow': 'Cal__Month__partialFirstRow'
 };
 
-var Month = function (_Component) {
-	babelHelpers.inherits(Month, _Component);
+var Month = function (_PureComponent) {
+	babelHelpers.inherits(Month, _PureComponent);
 
 	function Month() {
 		babelHelpers.classCallCheck(this, Month);
@@ -129,6 +129,6 @@ var Month = function (_Component) {
 		}
 	}]);
 	return Month;
-}(Component);
+}(PureComponent);
 
 export default Month;

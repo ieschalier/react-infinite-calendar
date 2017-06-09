@@ -41,8 +41,8 @@ var style = {
     'currentYear': 'Cal__Years__currentYear'
 };
 
-var Years = function (_Component) {
-    _inherits(Years, _Component);
+var Years = function (_PureComponent) {
+    _inherits(Years, _PureComponent);
 
     function Years(props) {
         _classCallCheck(this, Years);
@@ -214,7 +214,7 @@ var Years = function (_Component) {
     }]);
 
     return Years;
-}(_react.Component);
+}(_react.PureComponent);
 
 Years.propTypes = {
     height: _react.PropTypes.number,

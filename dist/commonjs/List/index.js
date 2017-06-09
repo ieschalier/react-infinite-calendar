@@ -37,8 +37,8 @@ var style = {
 	'scrolling': 'Cal__List__scrolling'
 };
 
-var List = function (_Component) {
-	_inherits(List, _Component);
+var List = function (_PureComponent) {
+	_inherits(List, _PureComponent);
 
 	function List() {
 		var _ref;
@@ -191,7 +191,7 @@ var List = function (_Component) {
 	}]);
 
 	return List;
-}(_react.Component);
+}(_react.PureComponent);
 
 List.propTypes = {
 	width: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),

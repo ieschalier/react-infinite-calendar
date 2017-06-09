@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import classNames from 'classnames';
 import moment from 'moment';
 var style = {
@@ -9,8 +9,8 @@ var style = {
 	'chevronDown': 'Cal__Today__chevronDown'
 };
 
-var Today = function (_Component) {
-	babelHelpers.inherits(Today, _Component);
+var Today = function (_PureComponent) {
+	babelHelpers.inherits(Today, _PureComponent);
 
 	function Today() {
 		var _ref;
@@ -64,7 +64,7 @@ var Today = function (_Component) {
 		}
 	}]);
 	return Today;
-}(Component);
+}(PureComponent);
 
 Today.propTypes = {
 	locale: PropTypes.object,

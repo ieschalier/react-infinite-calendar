@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { List as VirtualScroll } from 'react-virtualized';
 import classNames from 'classnames';
 import { keyCodes } from '../utils';
@@ -12,8 +12,8 @@ var style = {
     'currentYear': 'Cal__Years__currentYear'
 };
 
-var Years = function (_Component) {
-    babelHelpers.inherits(Years, _Component);
+var Years = function (_PureComponent) {
+    babelHelpers.inherits(Years, _PureComponent);
 
     function Years(props) {
         babelHelpers.classCallCheck(this, Years);
@@ -184,7 +184,7 @@ var Years = function (_Component) {
         }
     }]);
     return Years;
-}(Component);
+}(PureComponent);
 
 Years.propTypes = {
     height: PropTypes.number,

@@ -140,8 +140,8 @@ return /******/ (function(modules) { // webpackBootstrap
 		day: dayStyle
 	};
 
-	var InfiniteCalendar = function (_Component) {
-		_inherits(InfiniteCalendar, _Component);
+	var InfiniteCalendar = function (_PureComponent) {
+		_inherits(InfiniteCalendar, _PureComponent);
 
 		function InfiniteCalendar(props) {
 			_classCallCheck(this, InfiniteCalendar);
@@ -589,7 +589,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}]);
 
 		return InfiniteCalendar;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	InfiniteCalendar.defaultProps = {
 		width: 400,
@@ -17245,8 +17245,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var style = __webpack_require__(144);
 
-	var Today = function (_Component) {
-		_inherits(Today, _Component);
+	var Today = function (_PureComponent) {
+		_inherits(Today, _PureComponent);
 
 		function Today() {
 			var _ref;
@@ -17301,7 +17301,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}]);
 
 		return Today;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	Today.propTypes = {
 		locale: _react.PropTypes.object,
@@ -17362,8 +17362,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	var style = __webpack_require__(151);
 	var animation = __webpack_require__(153);
 
-	var Header = function (_Component) {
-		_inherits(Header, _Component);
+	var Header = function (_PureComponent) {
+		_inherits(Header, _PureComponent);
 
 		function Header() {
 			_classCallCheck(this, Header);
@@ -17455,7 +17455,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}]);
 
 		return Header;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	Header.propTypes = {
 		layout: _react.PropTypes.string,
@@ -17536,8 +17536,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var style = __webpack_require__(255);
 
-	var List = function (_Component) {
-		_inherits(List, _Component);
+	var List = function (_PureComponent) {
+		_inherits(List, _PureComponent);
 
 		function List() {
 			var _ref;
@@ -17690,7 +17690,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}]);
 
 		return List;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	List.propTypes = {
 		width: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.string]),
@@ -24621,8 +24621,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var style = __webpack_require__(253);
 
-	var Month = function (_Component) {
-		_inherits(Month, _Component);
+	var Month = function (_PureComponent) {
+		_inherits(Month, _PureComponent);
 
 		function Month() {
 			_classCallCheck(this, Month);
@@ -24740,7 +24740,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}]);
 
 		return Month;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	exports.default = Month;
 
@@ -26147,8 +26147,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var style = __webpack_require__(258);
 
-	var Weekdays = function (_Component) {
-		_inherits(Weekdays, _Component);
+	var Weekdays = function (_PureComponent) {
+		_inherits(Weekdays, _PureComponent);
 
 		function Weekdays() {
 			_classCallCheck(this, Weekdays);
@@ -26182,7 +26182,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}]);
 
 		return Weekdays;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	Weekdays.propTypes = {
 		locale: _react.PropTypes.object,
@@ -26240,8 +26240,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var style = __webpack_require__(261);
 
-	var Years = function (_Component) {
-	    _inherits(Years, _Component);
+	var Years = function (_PureComponent) {
+	    _inherits(Years, _PureComponent);
 
 	    function Years(props) {
 	        _classCallCheck(this, Years);
@@ -26413,7 +26413,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }]);
 
 	    return Years;
-	}(_react.Component);
+	}(_react.PureComponent);
 
 	Years.propTypes = {
 	    height: _react.PropTypes.number,

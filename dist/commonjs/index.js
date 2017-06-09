@@ -93,8 +93,8 @@ var style = {
 	day: dayStyle
 };
 
-var InfiniteCalendar = function (_Component) {
-	_inherits(InfiniteCalendar, _Component);
+var InfiniteCalendar = function (_PureComponent) {
+	_inherits(InfiniteCalendar, _PureComponent);
 
 	function InfiniteCalendar(props) {
 		_classCallCheck(this, InfiniteCalendar);
@@ -542,7 +542,7 @@ var InfiniteCalendar = function (_Component) {
 	}]);
 
 	return InfiniteCalendar;
-}(_react.Component);
+}(_react.PureComponent);
 
 InfiniteCalendar.defaultProps = {
 	width: 400,

@@ -50,8 +50,8 @@ var animation = {
 	'leaveActive': 'Cal__Animation__leaveActive'
 };
 
-var Header = function (_Component) {
-	_inherits(Header, _Component);
+var Header = function (_PureComponent) {
+	_inherits(Header, _PureComponent);
 
 	function Header() {
 		_classCallCheck(this, Header);
@@ -143,7 +143,7 @@ var Header = function (_Component) {
 	}]);
 
 	return Header;
-}(_react.Component);
+}(_react.PureComponent);
 
 Header.propTypes = {
 	layout: _react.PropTypes.string,
